@@ -28,7 +28,8 @@
     "url": "https://github.com/HenrikJoreteg/wakelock-lazy-polyfill.git"
   },
   "scripts": {
-    "build": "rm -rf dist && microbundle -f umd --no-sourcemap",
+    "build": "rm -rf public dist && npm run build-lib && npm run build-site",
+    "build-lib": "microbundle -f umd --no-sourcemap",
     "build-site": "parcel build testsite/index.html",
     "dev": "microbundle --watch -f umd --no-compress",
     "dev-site": "parcel testsite/index.html -d public --no-hmr",

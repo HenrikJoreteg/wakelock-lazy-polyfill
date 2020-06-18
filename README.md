@@ -14,6 +14,10 @@ Can also drop it in via CDN:
 <script src="http://unpkg.com/wakelock-lazy-polyfill"></script>
 ```
 
+## Test site
+
+https://wakelock-polyfill.joreteg.com/
+
 ## Background
 
 The Web is getting a wonderful WakeLock API to keep your screen awake, but it's not broadly available yet. As of this writing it's a Origin Trial in Chrome that should ship in the next version.
