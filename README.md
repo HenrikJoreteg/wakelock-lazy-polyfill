@@ -35,6 +35,6 @@ So, here we are.
 
 ## Credits
 
-Obviously props to @richtr for nosleep.js and [Thomas Steiner](https://twitter.com/tomayac) for his work on making the WakeLock API "A Thing".
+Obviously props to [@richtr](https://github.com/richtr) for nosleep.js and [Thomas Steiner](https://twitter.com/tomayac) for his work on making the WakeLock API "A Thing".
 
 If you like this, follow [@HenrikJoreteg](https://twitter.com/HenrikJoreteg) on twitter.
