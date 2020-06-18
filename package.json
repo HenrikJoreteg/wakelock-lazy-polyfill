@@ -1,0 +1,38 @@
+{
+  "name": "wakelock-lazy-polyfill",
+  "description": "Lazy polyfill for wakelock API.",
+  "version": "0.0.0",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/HenrikJoreteg/wakelock-lazy-polyfill/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "microbundle": "^0.12.1",
+    "parcel": "^1.12.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://wake-lock-demo.joreteg.com",
+  "keywords": [],
+  "license": "ISC",
+  "main": "dist/wakelock-polyfill.umd.js",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "semi": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenrikJoreteg/wakelock-lazy-polyfill.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && microbundle -f umd --no-sourcemap",
+    "build-site": "parcel build testsite/index.html",
+    "dev": "microbundle --watch -f umd --no-compress",
+    "dev-site": "parcel testsite/index.html -d public --no-hmr",
+    "prepublish": "npm run build"
+  },
+  "source": "index.js"
+}
