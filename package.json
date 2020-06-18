@@ -1,7 +1,7 @@
 {
   "name": "wakelock-lazy-polyfill",
   "description": "Lazy polyfill for wakelock API.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "",
   "bugs": {
     "url": "https://github.com/HenrikJoreteg/wakelock-lazy-polyfill/issues"
